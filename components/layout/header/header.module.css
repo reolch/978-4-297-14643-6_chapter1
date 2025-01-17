@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1000px;
+  padding: 25px 20px;
+  margin: 0 auto;
+
+
+}
+
+.header .logo {
+  max-width: 120px;
+  line-height: 0;
+}
+
+.header .logo a {
+  display: block;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  font-size: 14px;
+  margin-left: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        padding: 35px 20px;
+    }
+
+    .header .logo {
+        max-width: 190px;
+    }
+}

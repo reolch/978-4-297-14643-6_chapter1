@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #707070;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #707070;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
