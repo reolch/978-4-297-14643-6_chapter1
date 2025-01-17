@@ -1,0 +1,56 @@
+.sectionTitle {
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.sectionTitle .en {
+    display: block;
+    font-size: 40px;
+}
+
+.sectionTitle .ja {
+    display: block;
+    font-size: 14px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 60px;
+}
+
+.profile_detail {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .sectionTitle {
+        margin-bottom: 25px;
+    }
+
+    .sectionTitle .en {
+        font-size: 32px;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 120px;
+        align-items: center;
+    }
+
+    .profile_img {
+        width: 50%;
+    }
+
+    .profile_detail {
+        width: 50%;
+        margin-left: 80px;
+    }
+
+    .profile_detail p {
+        font-size: 14px;
+        line-height: 2;
+    }
+}   

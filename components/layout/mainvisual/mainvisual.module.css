@@ -1,0 +1,38 @@
+.mainvisual {
+    margin-bottom: 50px;
+}
+
+.introduction {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.catchphrase {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.text {
+    font-size: 14px;
+    text-align: left;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .mainvisual {
+        margin-bottom: 80px;
+    }
+
+    .introduction {
+        margin-bottom: 80px;
+    }
+
+    .catchphrase {
+        font-size: 1rem;
+    }
+
+    .text {
+        text-align: center;
+    }
+}

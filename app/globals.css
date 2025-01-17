@@ -41,3 +41,8 @@ a {
 a:hover {
   opacity: 0.7;
 }
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
