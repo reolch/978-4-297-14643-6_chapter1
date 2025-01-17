@@ -7,7 +7,7 @@ import styles from "./profile.module.css";
 const Profile = () => {
     return (
         <>
-            <section className={styles.profile}>
+            <section id="Profile" className={styles.profile}>
                 <div className={styles.profile_img}>
                     <img src="/images/profile.jpg" alt="profile" />
                 </div>

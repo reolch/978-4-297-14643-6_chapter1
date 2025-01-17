@@ -4,7 +4,7 @@ import styles from "./works.module.css";
     const Works = () => {
     return (
         <>
-            <section className={styles.works}>
+            <section id="Works" className={styles.works}>
                 <h2 className={styles.sectionTitle}>
                     <span className={styles.en}>Works</span>
                     <span className={styles.ja}>ワークス</span>

@@ -11,8 +11,8 @@ const Header = () => {
             </h1>
             <nav className={styles.nav}>
                 <ul>
-                    <li><a href="/">Profile</a></li>
-                    <li><a href="/Works">Works</a></li>
+                    <li><a href="#Profile">Profile</a></li>
+                    <li><a href="#Works">Works</a></li>
                 </ul>
             </nav>
         </header>
